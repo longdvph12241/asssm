@@ -1,0 +1,38 @@
+#title-lienhe{
+    font-family: Arima_Madurai;
+    font-size: 28px;
+    font-weight: 600;
+    color: #0065C3;
+}
+#bando{
+    height: 415px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.txt{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.txt>p{
+    font-size: 24px;
+    font-family: Arima_Madurai;
+}
+#form-lienhe>form>p{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-family: Arima_Madurai;
+}
+#form-lienhe>form>input{
+    margin-left: 60px;
+    width: 470px;
+    border-radius: 5px;
+    border: 1px solid rgb(142, 142, 142);
+}
+#form-lienhe>form>button{
+    margin-left: 60px;
+    width: 120px;
+    margin-top: 30px;
+}

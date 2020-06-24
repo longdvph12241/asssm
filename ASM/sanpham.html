@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="sanpham.css">
+    <link rel="stylesheet" type="text/css" href="3-card.carousel/bootstrap/css/bootstrap.css">
+    <script type="text/javascript" src="3-card.carousel/jquery/jquery3.5.1.js"></script>
+    <script type="text/javascript" src="3-card.carousel/bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <!-- header -->
+            <div id="header" class="row">
+                <div class="col-sm-6">
+                    <img class="logo" src="IMG/logo.png" alt="">
+                    <img id="pepsi" src="IMG/A4 - 1.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <img class="img2" src="IMG/Untitled.png">
+                </div>
+            </div>
+            <!-- nav -->
+            <div class="row" style="background-color: #004079;">
+                <nav id="nav" class="navbar navbar-expand-lg navbar ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="trangchu.html">TRANG CHỦ<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gioithieu.html">GIỚI THIỆU</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    SẢN PHẨM
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="sanpham.html">NỔI BẬT</a>
+                                    <a class="dropdown-item" href="sanpham.html">BÁN CHẠY</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tintuc.html">TIN TỨC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <form id="form" class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <!-- banner -->
+            <div class="row" style="height: 500px;">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="IMG/maxresdefault.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMG/capture.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMG/pepsi-tet.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content -->
+            <div id="title-sp" class="row">
+                <strong>
+                    <p>TẤT CẢ SẢN PHẨM</p>
+                </strong>
+            </div>
+            <div class="row">
+                <div id="slidebar" class="col-sm-4">
+                    <p class="title-slidebar">DANH MỤC SẢN PHẨM</p>
+                    <input type="text" class="inp-slidebar" style="margin-left: 15px;
+                    width: 285px;
+                    border-radius: 20px;
+                    border: 1px solid white;">
+                    <button style="border-radius: 15px;border: 1px solid white;">
+                        <img src="IMG/search-solid (1).svg" style="width: 20px;">
+                    </button>
+                    <div class="row" style="margin-top: 30px;">
+                        <input type="checkbox" style="margin-top: 7px;margin-left: 30px;">
+                        <span>&nbsp;&nbsp;</span>
+                        <span style="color: white; font-size: 20px;font-family: Arima_Madurai;">Đồ uống có gas</span>
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <input type="checkbox" style="margin-top: 7px;margin-left: 30px;">
+                        <span>&nbsp;&nbsp;</span>
+                        <span style="color: white; font-size: 20px;font-family: Arima_Madurai;">Nước tăng lực</span>
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <input type="checkbox" style="margin-top: 7px;margin-left: 30px;">
+                        <span>&nbsp;&nbsp;</span>
+                        <span style="color: white; font-size: 20px;font-family: Arima_Madurai;">Đồ uống giải khát</span>
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <input type="checkbox" style="margin-top: 7px;margin-left: 30px;">
+                        <span>&nbsp;&nbsp;</span>
+                        <span style="color: white; font-size: 20px;font-family: Arima_Madurai;">Đồ uống kích
+                            thích</span>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div id="nav-content" style="padding-top: 9px;">
+                            <div class="row">
+                                <div class="col-sm-6" style="    padding-left: 40px;">
+                                    <button type="button" class="btn btn-light" style="font-family: Arima_Madurai;font-weight: 800;">1</button>
+                                    <button type="button" class="btn btn-light" style="font-family: Arima_Madurai;font-weight: 800;">2</button>
+                                    <button type="button" class="btn btn-light" style="font-family: Arima_Madurai;font-weight: 800;">3</button>
+                                    <button type="button" class="btn btn-light" style="font-family: Arima_Madurai;font-weight: 800;">4</button>
+                                </div>
+                                <div class="col-sm-6" style="padding-top: 5px;">
+                                    <span style="margin-left: 195px;font-family: Arima_Madurai;font-size: 20px;color: white;margin-top: ;">Lọc</span>
+                                    <select name="A-Z" id="" style="float: right;margin-right: 50px;border-radius: 5px;">
+                                        <option value="">A-Z</option>
+                                        <option value="">Giá tiền</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hang1 -->
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI ZERO SUGAR<br>WILD CHERRY</p>
+                                <img class="sp" style="width: 90px;" src="IMG/can-pepsi-cherry.png" alt="">
+                                <p class="price">3.22$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI CAFFEINE FREE</p>
+                                <br>
+                                <img class="sp" style="width: 90px;" src="IMG/can-pepsi-zero-sugar.png" alt="">
+                                <p class="price">3.15$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI WILD CHERRY<br>VANILLA</p>
+                                <img class="sp" style="width: 90px;" src="IMG/Diet-Pepsi-CaffFree-v2_12oz.png" alt="">
+                                <p class="price">3.56$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI WILD CHERRY</p>
+                                <br>
+                                <img class="sp" style="width: 90px;" src="IMG/Diet-Pepsi-Cherry-v2_12oz.png" alt="">
+                                <p class="price">3.19$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                    </div>
+                    <!-- hang2 -->
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI ZERO SUGAR<br>WILD CHERRY</p>
+                                <img class="sp" style="width: 90px;" src="IMG/can-pepsi-cherry.png" alt="">
+                                <p class="price">3.22$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI CAFFEINE FREE</p>
+                                <br>
+                                <img class="sp" style="width: 90px;" src="IMG/can-pepsi-zero-sugar.png" alt="">
+                                <p class="price">3.15$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI WILD CHERRY<br>VANILLA</p>
+                                <img class="sp" style="width: 90px;" src="IMG/Diet-Pepsi-CaffFree-v2_12oz.png" alt="">
+                                <p class="price">3.56$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI WILD CHERRY</p>
+                                <br>
+                                <img class="sp" style="width: 90px;" src="IMG/Diet-Pepsi-Cherry-v2_12oz.png" alt="">
+                                <p class="price">3.19$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                    </div>
+                    <!-- hang3 -->
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI ZERO SUGAR<br>WILD CHERRY</p>
+                                <img class="sp" style="width: 90px;" src="IMG/can-pepsi-cherry.png" alt="">
+                                <p class="price">3.22$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI CAFFEINE FREE</p>
+                                <br>
+                                <img class="sp" style="width: 90px;" src="IMG/can-pepsi-zero-sugar.png" alt="">
+                                <p class="price">3.15$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI WILD CHERRY<br>VANILLA</p>
+                                <img class="sp" style="width: 90px;" src="IMG/Diet-Pepsi-CaffFree-v2_12oz.png" alt="">
+                                <p class="price">3.56$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                        <div class="col-sm-3">
+                            <center>
+                                <p>PEPSI WILD CHERRY</p>
+                                <br>
+                                <img class="sp" style="width: 90px;" src="IMG/Diet-Pepsi-Cherry-v2_12oz.png" alt="">
+                                <p class="price">3.19$</p>
+                                <button type="button" class="btn btn-primary">Mua ngay</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div id="footer" class="row">
+                <div class="col-sm-4">
+                    <div id="col1">
+                        <p>HỖ TRỢ KHÁCH HÀNG</p>
+                        <img style="width: 20px;position: absolute;" src="IMG/icon-youtube.svg" alt="">
+                        <p style="margin-left: 25px;">pepsico@gmail.com</p>
+                        <img style="width: 20px;position: absolute;" src="IMG/icon-facebook.svg" alt="">
+                        <p style="margin-left: 25px;">https://www.facebook.com/PepsiCo/</p>
+                        <img style="width: 20px;position: absolute;" src="IMG/icon-twitter.svg" alt="">
+                        <p style="margin-left: 25px;">https://www.pepsi.com/</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col2">
+                        <p>GIÚP ĐỠ</p>
+                        <p>Câu hỏi thường gặp</p>
+                        <p>Điều khoản sử dụng</p>
+                        <p>Quy định chính sách bán tài liệu</p>
+                        <p>Hướng dẫn thanh toán</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col3">
+                        <p>LIÊN HỆ</p>
+                        <input class="input" type="text" placeholder="Nhập địa chỉ email...">
+                        <button id="btn" type="button" class="btn btn-primary">Gửi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

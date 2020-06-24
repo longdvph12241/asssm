@@ -1,0 +1,27 @@
+#title-sp{
+    height: 95px;
+}
+#title-sp>strong>p{
+    font-size: 28px;
+    font-family: Arima_Madurai;
+    color: #012AFF;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#slidebar{
+    height: 1153px;
+    background-color: #0065C3;
+}
+#nav-content{
+    width: 750px;
+    height: 55px;
+    margin-left: 10px;
+    background-color:#0065C3;
+}
+.title-slidebar{
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 15px;
+    color: white;
+    font-family: Arima_Madurai;
+}

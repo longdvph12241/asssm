@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	padding-top: 60px;
+}
+li>a:hover{
+	color: black;
+}
+.row span{
+	color: white;
+}
